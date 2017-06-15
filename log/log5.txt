@@ -1,0 +1,231 @@
+--------- beginning of main
+E/cutils-trace( 3526): Error opening trace file: Permission denied (13)
+E/memtrack( 3526): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3526): failed to load memtrack module: -2
+--------- beginning of system
+I/ActivityManager( 1578): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.geyan.mp3player/.MainActivity} from uid 2000 on display 0
+I/ActivityManager( 1578): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.geyan.mp3player/.MainActivity} from uid 2000 on display 0
+I/ActivityManager( 1578): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.geyan.mp3player/.MainActivity} from uid 2000 on display 0
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+I/ActivityManager( 1578): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} from uid 1000 on display 0
+I/ActivityManager( 1578): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.geyan.mp3player/.MainActivity} from uid 2000 on display 0
+I/ActivityManager( 1578): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.geyan.mp3player/.MainActivity} from uid 2000 on display 0
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+I/ActivityManager( 1578): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000 cmp=com.android.dialer/.DialtactsActivity} from uid 10096 on display 0
+--------- beginning of crash
+E/AndroidRuntime( 3242): FATAL EXCEPTION: main
+E/AndroidRuntime( 3242): Process: com.android.music, PID: 3242
+E/AndroidRuntime( 3242): java.lang.RuntimeException: Unable to create service com.android.music.MediaPlaybackService: java.lang.SecurityException: MODE_WORLD_READABLE no longer supported
+E/AndroidRuntime( 3242): 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:3201)
+E/AndroidRuntime( 3242): 	at android.app.ActivityThread.-wrap5(ActivityThread.java)
+E/AndroidRuntime( 3242): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1567)
+E/AndroidRuntime( 3242): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 3242): 	at android.os.Looper.loop(Looper.java:154)
+E/AndroidRuntime( 3242): 	at android.app.ActivityThread.main(ActivityThread.java:6119)
+E/AndroidRuntime( 3242): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime( 3242): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:886)
+E/AndroidRuntime( 3242): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:776)
+E/AndroidRuntime( 3242): Caused by: java.lang.SecurityException: MODE_WORLD_READABLE no longer supported
+E/AndroidRuntime( 3242): 	at android.app.ContextImpl.checkMode(ContextImpl.java:2134)
+E/AndroidRuntime( 3242): 	at android.app.ContextImpl.getSharedPreferences(ContextImpl.java:354)
+E/AndroidRuntime( 3242): 	at android.app.ContextImpl.getSharedPreferences(ContextImpl.java:349)
+E/AndroidRuntime( 3242): 	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:164)
+E/AndroidRuntime( 3242): 	at com.android.music.MediaPlaybackService.onCreate(MediaPlaybackService.java:338)
+E/AndroidRuntime( 3242): 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:3191)
+E/AndroidRuntime( 3242): 	... 8 more
+W/ActivityManager( 1578): Force-killing crashed app com.android.music at watcher's request
+I/ActivityManager( 1578): Process com.android.music (pid 3242) has died
+W/ActivityManager( 1578): Scheduling restart of crashed service com.android.music/.MediaPlaybackService in 1000ms
+I/ActivityManager( 1578): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.music/.MusicBrowserActivity sel=act=android.intent.action.MAIN cat=[android.intent.category.APP_MUSIC]}} from uid 1000 on display 0
+I/ActivityManager( 1578): Start proc 3540:com.android.music/u0a48 for broadcast com.android.music/.MediaButtonIntentReceiver
+I/ActivityManager( 1578): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.geyan.mp3player/.MainActivity} from uid 2000 on display 0
+E/AndroidRuntime( 3540): FATAL EXCEPTION: main
+E/AndroidRuntime( 3540): Process: com.android.music, PID: 3540
+E/AndroidRuntime( 3540): java.lang.RuntimeException: Unable to create service com.android.music.MediaPlaybackService: java.lang.SecurityException: MODE_WORLD_READABLE no longer supported
+E/AndroidRuntime( 3540): 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:3201)
+E/AndroidRuntime( 3540): 	at android.app.ActivityThread.-wrap5(ActivityThread.java)
+E/AndroidRuntime( 3540): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1567)
+E/AndroidRuntime( 3540): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 3540): 	at android.os.Looper.loop(Looper.java:154)
+E/AndroidRuntime( 3540): 	at android.app.ActivityThread.main(ActivityThread.java:6119)
+E/AndroidRuntime( 3540): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime( 3540): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:886)
+E/AndroidRuntime( 3540): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:776)
+E/AndroidRuntime( 3540): Caused by: java.lang.SecurityException: MODE_WORLD_READABLE no longer supported
+E/AndroidRuntime( 3540): 	at android.app.ContextImpl.checkMode(ContextImpl.java:2134)
+E/AndroidRuntime( 3540): 	at android.app.ContextImpl.getSharedPreferences(ContextImpl.java:354)
+E/AndroidRuntime( 3540): 	at android.app.ContextImpl.getSharedPreferences(ContextImpl.java:349)
+E/AndroidRuntime( 3540): 	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:164)
+E/AndroidRuntime( 3540): 	at com.android.music.MediaPlaybackService.onCreate(MediaPlaybackService.java:338)
+E/AndroidRuntime( 3540): 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:3191)
+E/AndroidRuntime( 3540): 	... 8 more
+W/ActivityManager( 1578): Force-killing crashed app com.android.music at watcher's request
+W/ActivityManager( 1578): Process com.android.music has crashed too many times: killing!
+I/ActivityManager( 1578): Killing 3540:com.android.music/u0a48 (adj 0): crash
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+I/ActivityManager( 1578): START u0 {cmp=com.example.geyan.mp3player/com.example.geyan.access.Signup} from uid 10096 on display 0
+I/ActivityManager( 1578): Displayed com.example.geyan.mp3player/com.example.geyan.access.Signup: +101ms
+I/ActivityManager( 1578): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.geyan.mp3player/.MainActivity} from uid 2000 on display 0
+E/NotificationService( 1578): Suppressing toast from package com.example.geyan.mp3player by user request.
+I/ActivityManager( 1578): START u0 {cmp=com.example.geyan.mp3player/.MainActivity (has extras)} from uid 10096 on display 0
+E/AndroidRuntime( 3496): FATAL EXCEPTION: main
+E/AndroidRuntime( 3496): Process: com.example.geyan.mp3player, PID: 3496
+E/AndroidRuntime( 3496): java.lang.NullPointerException: Attempt to get length of null array
+E/AndroidRuntime( 3496): 	at com.example.geyan.util.FileUtil.getDownloadedMp3Files(FileUtil.java:81)
+E/AndroidRuntime( 3496): 	at com.example.geyan.mp3player.LocalTab.localMp3List(LocalTab.java:98)
+E/AndroidRuntime( 3496): 	at com.example.geyan.mp3player.LocalTab.onStart(LocalTab.java:60)
+E/AndroidRuntime( 3496): 	at android.support.v4.app.Fragment.performStart(Fragment.java:2218)
+E/AndroidRuntime( 3496): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1340)
+E/AndroidRuntime( 3496): 	at android.support.v4.app.FragmentManagerImpl.performPendingDeferredStart(FragmentManager.java:1132)
+E/AndroidRuntime( 3496): 	at android.support.v4.app.FragmentManagerImpl.startPendingDeferredFragments(FragmentManager.java:1632)
+E/AndroidRuntime( 3496): 	at android.support.v4.app.FragmentManagerImpl.doPendingDeferredStart(FragmentManager.java:2465)
+E/AndroidRuntime( 3496): 	at android.support.v4.app.FragmentManagerImpl.execSingleAction(FragmentManager.java:1990)
+E/AndroidRuntime( 3496): 	at android.support.v4.app.BackStackRecord.commitNowAllowingStateLoss(BackStackRecord.java:626)
+E/AndroidRuntime( 3496): 	at android.support.v4.app.FragmentStatePagerAdapter.finishUpdate(FragmentStatePagerAdapter.java:166)
+E/AndroidRuntime( 3496): 	at android.support.v4.view.ViewPager.populate(ViewPager.java:1268)
+E/AndroidRuntime( 3496): 	at android.support.v4.view.ViewPager.populate(ViewPager.java:1116)
+E/AndroidRuntime( 3496): 	at android.support.v4.view.ViewPager.onMeasure(ViewPager.java:1642)
+E/AndroidRuntime( 3496): 	at android.view.View.measure(View.java:19857)
+E/AndroidRuntime( 3496): 	at android.widget.RelativeLayout.measureChildHorizontal(RelativeLayout.java:715)
+E/AndroidRuntime( 3496): 	at android.widget.RelativeLayout.onMeasure(RelativeLayout.java:461)
+E/AndroidRuntime( 3496): 	at android.view.View.measure(View.java:19857)
+E/AndroidRuntime( 3496): 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6083)
+E/AndroidRuntime( 3496): 	at android.widget.FrameLayout.onMeasure(FrameLayout.java:185)
+E/AndroidRuntime( 3496): 	at android.support.v7.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:139)
+E/AndroidRuntime( 3496): 	at android.view.View.measure(View.java:19857)
+E/AndroidRuntime( 3496): 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6083)
+E/AndroidRuntime( 3496): 	at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1464)
+E/AndroidRuntime( 3496): 	at android.widget.LinearLayout.measureVertical(LinearLayout.java:758)
+E/AndroidRuntime( 3496): 	at android.widget.LinearLayout.onMeasure(LinearLayout.java:640)
+E/AndroidRuntime( 3496): 	at android.view.View.measure(View.java:19857)
+E/AndroidRuntime( 3496): 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6083)
+E/AndroidRuntime( 3496): 	at android.widget.FrameLayout.onMeasure(FrameLayout.java:185)
+E/AndroidRuntime( 3496): 	at android.view.View.measure(View.java:19857)
+E/AndroidRuntime( 3496): 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6083)
+E/AndroidRuntime( 3496): 	at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1464)
+E/AndroidRuntime( 3496): 	at android.widget.LinearLayout.measureVertical(LinearLayout.java:758)
+E/AndroidRuntime( 3496): 	at android.widget.LinearLayout.onMeasure(LinearLayout.java:640)
+E/AndroidRuntime( 3496): 	at android.view.View.measure(View.java:19857)
+E/AndroidRuntime( 3496): 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6083)
+E/AndroidRuntime( 3496): 	at android.widget.FrameLayout.onMeasure(FrameLayout.java:185)
+E/AndroidRuntime( 3496): 	at com.android.internal.policy.DecorView.onMeasure(DecorView.java:689)
+E/AndroidRuntime( 3496): 	at android.view.View.measure(View.java:19857)
+E/AndroidRuntime( 3496): 	at android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:2275)
+E/AndroidRuntime( 3496): 	at android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:1366)
+E/AndroidRuntime( 3496): 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:1619)
+E/AndroidRuntime( 3496): 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1254)
+E/AndroidRuntime( 3496): 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6337)
+E/AndroidRuntime( 3496): 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:874)
+E/AndroidRuntime( 3496): 	at android.view.Choreographer.doCallbacks(Choreographer.java:686)
+E/AndroidRuntime( 3496): 	at android.view.Choreographer.doFrame(Choreographer.java:621)
+E/AndroidRuntime( 3496): 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:860)
+E/AndroidRuntime( 3496): 	at android.os.Handler.handleCallback(Handler.java:751)
+E/AndroidRuntime( 3496): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/AndroidRuntime( 3496): 	at android.os.Looper.loop(Looper.java:154)
+E/AndroidRuntime( 3496): 	at android.app.ActivityThread.main(ActivityThread.java:6119)
+E/AndroidRuntime( 3496): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime( 3496): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:886)
+E/AndroidRuntime( 3496): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:776)
+W/ActivityManager( 1578): Force-killing crashed app com.example.geyan.mp3player at watcher's request
+W/ActivityManager( 1578):   Force finishing activity com.example.geyan.mp3player/.MainActivity
+W/ActivityManager( 1578):   Force finishing activity com.example.geyan.mp3player/com.example.geyan.access.Signup
+E/InputDispatcher( 1578): channel '82d7d6a com.example.geyan.mp3player/com.example.geyan.access.Signup (server)' ~ Channel is unrecoverably broken and will be disposed!
+E/InputDispatcher( 1578): channel '90566b1 com.example.geyan.mp3player/com.example.geyan.mp3player.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+E/InputDispatcher( 1578): channel 'dc61223 com.example.geyan.mp3player/com.example.geyan.access.Login (server)' ~ Channel is unrecoverably broken and will be disposed!
+I/ActivityManager( 1578): Process com.example.geyan.mp3player (pid 3496) has died
+W/ActivityManager( 1578): Service crashed 2 times, stopping: ServiceRecord{2871b9d u0 com.example.geyan.mp3player/com.android.tools.fd.runtime.InstantRunService}
+I/ActivityManager( 1578): Start proc 3565:com.example.geyan.mp3player/u0a96 for activity com.example.geyan.mp3player/com.example.geyan.access.Login
+E/SurfaceFlinger( 1298): ro.sf.lcd_density must be defined as a build property
+I/ActivityManager( 1578): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.geyan.mp3player/.MainActivity} from uid 2000 on display 0
+I/ActivityManager( 1578): Setting hasTopUi=true for pid=1672
+I/ActivityManager( 1578): Displayed com.example.geyan.mp3player/com.example.geyan.access.Login: +689ms (total +1s78ms)
+I/ActivityManager( 1578): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.geyan.mp3player/.MainActivity} from uid 2000 on display 0
+E/GsaVoiceInteractionSess( 2120): startAssistActivity: opted out
+I/ActivityManager( 1578): START u0 {act=android.intent.action.ASSIST flg=0x10000000 cmp=com.google.android.googlequicksearchbox/.SearchActivity (has extras)} from uid 10022 on display 0
+E/ContextIntentStarter( 2120): No activity found for any of the 0 intents
+E/NowRemoteClient( 2120): skipping logEndstates, service is null
+E/NowRemoteClient( 2120): skipping logEndstates, service is null
+I/ActivityManager( 1578): Setting hasTopUi=false for pid=1672
+I/ActivityManager( 1578): Waited long enough for: ServiceRecord{a7d2e44 u0 com.google.android.gms/.stats.service.DropBoxEntryAddedService}
