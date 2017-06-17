@@ -4,28 +4,33 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Created by geyan on 15/06/2017.
  */
 
 public class TextReader {
-    private String filePath = "/Users/geyan/Desktop/log/log5.txt";
-    private List<String> textData = new ArrayList<>();
+    private String filePath = "/Users/geyan/Desktop/log/log4.txt";
     private Set<String> coveredActivities = new HashSet<>();
+    private String coveredActivity;
+    private String regexPattern = "^I.+Displayed";
+    private Matcher matcher;
+    private Pattern pattern;
 
-    public void read() {
+    public void readLogFile() {
+        pattern = Pattern.compile(regexPattern);
         try {
             BufferedReader bufferedReader = new BufferedReader(new FileReader(filePath));
             String line = bufferedReader.readLine();
             while (line != null) {
                 line = bufferedReader.readLine();
-                textData.add(line);
-                System.out.println(line);
+                if (line!=null){
+                    filterUniqueActivityName(line);
+                }
             }
             bufferedReader.close();
         } catch (FileNotFoundException e) {
@@ -33,26 +38,16 @@ public class TextReader {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-        filterStrings();
         for (String coveredActivity:coveredActivities){
             System.out.println("covered Activity: "+coveredActivity);
         }
     }
 
-    public void filterStrings() {
-        String singleLine;
-        for (int i = 0; i < textData.size(); i++) {
-            singleLine = textData.get(i);
-            if (singleLine != null) {
-                if (singleLine.substring(0, 1).equals("I")) {
-                    String verifyDisplay[] = textData.get(i).split(":");
-                    if (verifyDisplay[1].startsWith(" Displayed")) {
-                        String splitBackslash[] = verifyDisplay[1].split("/");
-                        coveredActivities.add(splitBackslash[1]);
-                    }
-                }
-            }
+    public void filterUniqueActivityName(String logLine) {
+        matcher = pattern.matcher(logLine);
+        if (matcher.find()){
+            coveredActivity = logLine.substring(logLine.lastIndexOf("/")+1,logLine.lastIndexOf(":"));
+            coveredActivities.add(coveredActivity);
         }
     }
 }

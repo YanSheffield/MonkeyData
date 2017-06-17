@@ -7,16 +7,21 @@ package com.example.geyan.monkeydata;
 public class MainMethod {
 
     public static void main(String[] args){
-//        TextReader textReader = new TextReader();
-//        textReader.read();
-//        MonkeyRunning monkeyRunning = new MonkeyRunning();
-//        monkeyRunning.exeCommandLogcat();
-        ProcessRunner.runProcess(false,"adb logcat -c");
-        new Thread(new MonkeyRunning("adb -e shell monkey --ignore-crashes -p com.example.geyan.mp3player 1000")).start();
+//        String monkeyRunningCmdInit = "adb -e shell monkey --ignore-crashes ";
+//        String monkeyRunningCmdPackage = "-p com.example.geyan.mp3player ";
+//        String monkeyRunningCmdEventCount = "5000";
+//        ProcessRunner.runProcess(false,"adb logcat -c");
+//        new Thread(new MonkeyRunner(monkeyRunningCmdInit+monkeyRunningCmdPackage+monkeyRunningCmdEventCount)).start();
+//
+//        String logcatCmdInit = "adb logcat ";
+//        String logcatTagActivityMangerInfoLevel = "ActivityManager:I ";
+//        String logcatFormat = "-b default ";
+//        String logcatOtherTagErrorLevel = "*:E";
+//        String locationLogFile = ">log/log6.txt";
+//        new Thread(new WriteLogcat(logcatCmdInit+logcatTagActivityMangerInfoLevel+logcatFormat+logcatOtherTagErrorLevel+locationLogFile)).start();
 
-        new Thread(new WriteLogcat("adb logcat ActivityManager:I -b default -v brief *:E>log/log5.txt")).start();
-//        List<String> result = ProcessRunner.runProcess(false,"adb logcat>log/log6.txt");
-
+        TextReader textReader = new TextReader();
+        textReader.readLogFile();
     }
 
 
