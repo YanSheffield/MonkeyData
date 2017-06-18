@@ -1,15 +1,12 @@
 package com.example.geyan.monkeydata;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 /**
  * Created by marceloe on 04/01/17.
  */
 public class ProcessRunner {
+    private static int i = 0;;
     private static final String[] WIN_RUNTIME = { "cmd.exe", "/C" };
     private static final String[] OS_LINUX_RUNTIME = { "/bin/bash", "-l", "-c" };
 
@@ -24,12 +21,7 @@ public class ProcessRunner {
         return result;
     }
 
-    public static List<String> runProcess(boolean isWin, String... command) {
-        //System.out.print("command to run: ");
-        for (String s : command) {
-            // System.out.print(s);
-        }
-        // System.out.print("\n");
+    public static void runProcess(boolean isWin, String... command) {
         String[] allCommand = null;
         try {
             if (isWin) {
@@ -37,25 +29,10 @@ public class ProcessRunner {
             } else {
                 allCommand = concat(OS_LINUX_RUNTIME, command);
             }
-            ProcessBuilder pb = new ProcessBuilder(allCommand);
-            pb.redirectErrorStream(true);
-            Process p = pb.start();
-            p.waitFor();
-            BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
-            String _temp = null;
-            List<String> line = new ArrayList<String>();
-            while ((_temp = in.readLine()) != null) {
-                //System.out.println("       **temp line: " + _temp);
-                line.add(_temp);
-            }
-
-            //if (command[0].contains("pull"))
-               // System.out.println("result after command: " + line);
-            return line;
-
+            Process process = Runtime.getRuntime().exec(allCommand);
+            process.waitFor();
         } catch (Exception e) {
             e.printStackTrace();
-            return null;
         }
     }
 }

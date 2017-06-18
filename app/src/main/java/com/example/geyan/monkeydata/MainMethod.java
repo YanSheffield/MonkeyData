@@ -7,23 +7,25 @@ package com.example.geyan.monkeydata;
 public class MainMethod {
 
     public static void main(String[] args){
-//        String monkeyRunningCmdInit = "adb -e shell monkey --ignore-crashes ";
-//        String monkeyRunningCmdPackage = "-p com.example.geyan.mp3player ";
-//        String monkeyRunningCmdEventCount = "5000";
-//        ProcessRunner.runProcess(false,"adb logcat -c");
-//        new Thread(new MonkeyRunner(monkeyRunningCmdInit+monkeyRunningCmdPackage+monkeyRunningCmdEventCount)).start();
-//
-//        String logcatCmdInit = "adb logcat ";
-//        String logcatTagActivityMangerInfoLevel = "ActivityManager:I ";
-//        String logcatFormat = "-b default ";
-//        String logcatOtherTagErrorLevel = "*:E";
-//        String locationLogFile = ">log/log6.txt";
-//        new Thread(new WriteLogcat(logcatCmdInit+logcatTagActivityMangerInfoLevel+logcatFormat+logcatOtherTagErrorLevel+locationLogFile)).start();
 
-        TextReader textReader = new TextReader();
+        ProcessRunner.runProcess(false,"adb logcat -c");
+
+        String monkeyRunningCmdInit = "adb -e shell monkey --ignore-crashes ";
+        String monkeyRunningCmdPackage = "-p com.example.geyan.mp3player ";
+        String monkeyRunningCmdEventCount = "1000";
+        ProcessRunner.runProcess(false,monkeyRunningCmdInit+monkeyRunningCmdPackage+monkeyRunningCmdEventCount);
+        System.out.println("Monkey finished");
+
+        String logcatCmdInit = "adb logcat -d ";
+        String logcatTagActivityMangerInfoLevel = "ActivityManager:I ";
+        String logcatFormat = "-v brief ";
+        String logcatOtherTagErrorLevel = "*:E";
+        String locationLogFile = ">log/with-d2.txt";
+        ProcessRunner.runProcess(false,logcatCmdInit+logcatTagActivityMangerInfoLevel+logcatFormat+logcatOtherTagErrorLevel+locationLogFile);
+
+        LogFilter textReader = new LogFilter();
         textReader.readLogFile();
+
     }
-
-
 }
 
