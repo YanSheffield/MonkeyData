@@ -20,7 +20,7 @@ public class LogFilter{
 
     private String coveredActivity;
 
-    private String regexForActivity = "^I.+Displayed";
+    private String regexForActivity = "^I.+\\bDisplayed\\b";
     private String regexForFatalError = ":\\s*\\bat\\b";
 
     private Matcher matcherForActivity;
@@ -32,17 +32,20 @@ public class LogFilter{
     private boolean isEnterFatalInfo = false;
 
     public void readLogFile() {
-        patternForActivity = Pattern.compile(regexForActivity);
-        patternForFatalError = Pattern.compile(regexForFatalError);
 
         try {
-            String filePath = "/Users/geyan/AndroidStudioProjects/MonkeyData/log/with-d2.txt";
+            //this text file is used to store log info.Please change this path based on your machine
+            //but this path must be same with variable "locationLogFile" in MainMethod.java
+            String filePath = "/Users/geyan/AndroidStudioProjects/MonkeyData/log/with-d5.txt";
+            //read this file line by line
             BufferedReader bufferedReader = new BufferedReader(new FileReader(filePath));
             String line = bufferedReader.readLine();
             while (line != null) {
                 line = bufferedReader.readLine();
                 if (line!=null){
+                    //obtain covered activities
                     filterUniqueActivityName(line);
+                    //obtain unique fatal error
                     filterUniqueFatalException(line);
                 }
             }
@@ -56,19 +59,26 @@ public class LogFilter{
     }
 
     public void filterUniqueActivityName(String logLine) {
+        //regex aims to filter the statement that starts with I and contain "Display"
+        patternForActivity = Pattern.compile(regexForActivity);
         matcherForActivity = patternForActivity.matcher(logLine);
         if (matcherForActivity.find()){
+            //obtain activity name
             coveredActivity = logLine.substring(logLine.lastIndexOf("/")+1,logLine.lastIndexOf(":"));
             coveredActivities.add(coveredActivity);
         }
     }
 
     public void filterUniqueFatalException(String fatalInfo){
+        // "FATAL EXCEPTION need to be contained in this statement"
         if (fatalInfo.contains("FATAL EXCEPTION") || isEnterFatalInfo){
             isEnterFatalInfo = true;
+            //"at" must follow by a colon
+            patternForFatalError = Pattern.compile(regexForFatalError);
             matcherForFatalError = patternForFatalError.matcher(fatalInfo);
             if(matcherForFatalError.find()){
                 foundFatalErrors.add(fatalInfo.substring(fatalInfo.indexOf("at ")+3,fatalInfo.length()));
+                //Only the first statement containing "at" is present
                 isEnterFatalInfo = false;
             }
         }
